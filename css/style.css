@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:'Times New Roman', Times, serif;
+  min-height: 100vh;
+  line-height: 1.5;
+  background-color: rgb(203, 187, 187);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+header, footer {
+  background-color: rgb(1, 73, 1);
+  color: white;
+}
+
+nav a {
+  color: white;
+}
