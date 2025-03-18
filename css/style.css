@@ -1,3 +1,9 @@
+:root {
+  --background-color: white;
+  --dark-color: black;
+  --pop-color: rgb(135, 206, 235);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +14,7 @@ body {
   font-family:'Times New Roman', Times, serif;
   min-height: 100vh;
   line-height: 1.5;
-  background-color: rgb(203, 187, 187);
+  background-color: var(--background-color);
 }
 
 a {
@@ -20,10 +26,10 @@ ul {
 }
 
 header, footer {
-  background-color: rgb(1, 73, 1);
-  color: white;
+  background-color: var(--pop-color);
+  color: var(--dark-color);
 }
 
 nav a {
-  color: white;
+  color: var(--dark-color);
 }
